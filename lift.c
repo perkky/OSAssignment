@@ -28,8 +28,6 @@ void* request(void* ptr)
 
     while (fscanf(ba->readFile, "%d %d",&startFloor,&endFloor) != EOF)
     {
-        int bufferSize = ba->readIndex <= ba->writeIndex ? 
-                            ba->writeIndex - ba->readIndex : ba->Size - ba->readIndex + ba->writeIndex; 
 
         ba->data[ba->writeIndex*2] = startFloor;
         ba->data[ba->writeIndex*2+1] = endFloor;
@@ -45,7 +43,7 @@ void* request(void* ptr)
 
         fprintf(stderr, "New Lift Request From Floor %d to Floor %d\n",startFloor, endFloor);
         fprintf(stderr, "Request No: %d\n\n", requestNum++);
-        printf("data is: %d\n", ba->data[ba->writeIndex*2-1]);
+        printf("data is: %d and %d\n", ba->data[ba->writeIndex*2-2],ba->data[ba->writeIndex*2-1]);
 
 #ifdef PROCESS
         sem_post(g_write_s);
@@ -54,8 +52,7 @@ void* request(void* ptr)
 #endif
 
         //If this would make the buffer full, wait until the buffer is not full
-        if (bufferSize == ba->Size -1)
-            while(ba->writeIndex == ba->readIndex);
+        while(ba->numUsed == ba->Size);
     }
 
     ba->isFinished = true;
@@ -84,12 +81,9 @@ void* lift(void* ptr)
 #endif
 
         //Wait for the buffer to have something to read
-        while (!ba->isFinished && ba->numUsed <= 0)
-        {
-            sleep(1);
-            printf("%d\n",ba->numUsed);
-        }
+        while (!ba->isFinished && ba->numUsed <= 0);
 
+        printf("Test: data is %d and %d", ba->data[0], ba->data[1]);
         startFloor = ba->data[ba->readIndex*2];
         endFloor = ba->data[ba->readIndex*2+1];
         ba->readIndex = (ba->readIndex + 1) % ba->Size;
