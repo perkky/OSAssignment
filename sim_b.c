@@ -11,37 +11,42 @@
 #include "lift.h"
 #include "global.h"
 
-int createSharedMemory()
+int createSharedMemory(int myBufferSize)
 {
 
-    g_ba_cid = shm_open("Data Memory", O_RDWR|O_CREAT, 0666);
+    g_ba_cid = shm_open("BA Memory", O_RDWR|O_CREAT, 0666);
+    g_data_cid = shm_open("Data Memory", O_RDWR|O_CREAT, 0666);
     g_read_s_cid = shm_open("Read Semaphore", O_RDWR|O_CREAT, 0666);
     g_write_s_cid = shm_open("Write Semaphore", O_RDWR|O_CREAT, 0666);
 
-    if (g_ba_cid == -1 || g_write_s_cid == -1 || g_read_s_cid == -1)
+    if (g_ba_cid == -1 || g_write_s_cid == -1 || g_read_s_cid == -1 || g_data_cid == -1)
     {
         perror("Shm_open failed\n");
         return -1;
     }
 
     ftruncate(g_ba_cid, sizeof(struct BufferArgs));
+    ftruncate(g_data_cid, 2*myBufferSize*sizeof(int));
     ftruncate(g_write_s_cid, sizeof(sem_t));
     ftruncate(g_read_s_cid, sizeof(sem_t));
 
     g_ba = (struct BufferArgs*)mmap(NULL, sizeof(struct BufferArgs), PROT_READ|PROT_WRITE, MAP_ANONYMOUS|MAP_SHARED, g_ba_cid, 0);
     g_read_s = (sem_t*)mmap(NULL, sizeof(sem_t), PROT_READ|PROT_WRITE, MAP_ANONYMOUS|MAP_SHARED, g_read_s_cid, 0);
     g_write_s = (sem_t*)mmap(NULL, sizeof(sem_t), PROT_READ|PROT_WRITE, MAP_ANONYMOUS|MAP_SHARED, g_write_s_cid, 0);
+    g_ba->data = (int*)mmap(NULL, 2*myBufferSize*sizeof(int), PROT_READ|PROT_WRITE, MAP_ANONYMOUS|MAP_SHARED, g_data_cid, 0);
 
     return 0;
 }
 
 void destroySharedMemory()
 {
+    munmap(g_ba->data, g_ba->Size*2*sizeof(int));
     munmap(g_ba, sizeof(struct BufferArgs));
     munmap(g_read_s, sizeof(sem_t));
     munmap(g_write_s, sizeof(sem_t));
 
     shm_unlink("Data Memory");
+    shm_unlink("BA Memory");
     shm_unlink("Read Semaphore");
     shm_unlink("Write Semaphore");
 
@@ -109,7 +114,7 @@ int createProcesses(int numRequests, int numLifts)
 
 int main(int argc, char* argv[])
 {
-    createSharedMemory();
+    createSharedMemory(atoi(argv[1]));
     
     initialiseBuffer(g_ba, atoi(argv[1]),atoi(argv[2]),"sim_out","sim_input");
 

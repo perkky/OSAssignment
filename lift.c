@@ -12,19 +12,23 @@ void initialiseBuffer(struct BufferArgs* myBufferArg, int myBufferSize, int mySl
     myBufferArg->writeIndex = 0;
     myBufferArg->readIndex = 0;
     myBufferArg->Size = myBufferSize;
-    myBufferArg->data = (int*)malloc(2*myBufferSize*sizeof(int));
     myBufferArg->sleepTime = mySleepTime;
     myBufferArg->writeFile = fopen(myWriteFileName, "w+");
     myBufferArg->numUsed = 0;
     myBufferArg->readFile = fopen(myReadFileName, "r");
     myBufferArg->isFinished = false;
+
+#ifndef PROCESS
+    myBufferArg->data = (int*)malloc(2*myBufferSize*sizeof(int));
+#endif
+
 }
 
 void* request(void* ptr)
 {
     struct BufferArgs* ba = (struct BufferArgs*)ptr;
     int startFloor = 0, endFloor = 0;
-    int requestNum = 1;
+    int requestNum = 0;
 
     while (fscanf(ba->readFile, "%d %d",&startFloor,&endFloor) != EOF)
     {
@@ -42,8 +46,7 @@ void* request(void* ptr)
 #endif
 
         fprintf(stderr, "New Lift Request From Floor %d to Floor %d\n",startFloor, endFloor);
-        fprintf(stderr, "Request No: %d\n\n", requestNum++);
-        printf("data is: %d and %d\n", ba->data[ba->writeIndex*2-2],ba->data[ba->writeIndex*2-1]);
+        fprintf(stderr, "Request No: %d\n\n", ++requestNum);
 
 #ifdef PROCESS
         sem_post(g_write_s);
@@ -83,7 +86,6 @@ void* lift(void* ptr)
         //Wait for the buffer to have something to read
         while (!ba->isFinished && ba->numUsed <= 0);
 
-        printf("Test: data is %d and %d", ba->data[0], ba->data[1]);
         startFloor = ba->data[ba->readIndex*2];
         endFloor = ba->data[ba->readIndex*2+1];
         ba->readIndex = (ba->readIndex + 1) % ba->Size;
