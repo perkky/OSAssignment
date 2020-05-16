@@ -28,7 +28,8 @@ void* request(void* ptr)
 {
     struct BufferArgs* ba = (struct BufferArgs*)ptr;
     int startFloor = 0, endFloor = 0;
-    int requestNum = 0;
+    int* requestNum = (int*)malloc(sizeof(int));
+    *requestNum = 0;
 
     while (fscanf(ba->readFile, "%d %d",&startFloor,&endFloor) != EOF)
     {
@@ -46,7 +47,7 @@ void* request(void* ptr)
 #endif
 
         fprintf(stderr, "New Lift Request From Floor %d to Floor %d\n",startFloor, endFloor);
-        fprintf(stderr, "Request No: %d\n\n", ++requestNum);
+        fprintf(stderr, "Request No: %d\n\n", ++(*requestNum));
 
 #ifdef PROCESS
         sem_post(g_write_s);
@@ -60,7 +61,7 @@ void* request(void* ptr)
 
     ba->isFinished = true;
 
-    return NULL;
+    return (void*)requestNum;
 }
 
 void* lift(void* ptr)
@@ -128,5 +129,8 @@ void* lift(void* ptr)
 
     printf("Lift finished\n");
 
-    return NULL; 
+    int* movement_ptr = (int*)malloc(sizeof(int));
+    *movement_ptr = totalFloorsTbaveled;
+
+    return movement_ptr; 
 }
