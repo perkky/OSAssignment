@@ -6,10 +6,12 @@
 #include <stdio.h>
 #include <semaphore.h>
 
+
 struct BufferArgs* g_ba;
-sem_t* g_read_s;
-sem_t* g_write_s;
-int g_ba_cid, g_read_s_cid, g_write_s_cid, g_data_cid, g_return_data_cid;
-int* g_return_data;
-pthread_mutex_t readLock;
-pthread_mutex_t writeLock;
+sem_t* empty_sem;
+sem_t* full_sem;
+sem_t* lock_sem;
+
+pthread_mutex_t lock_mut;
+pthread_cond_t full_cond;
+pthread_cond_t empty_cond;

@@ -13,8 +13,10 @@ struct BufferArgs
     int Size;
     int* data;
     int sleepTime;
-    FILE* writeFile;
+    char* writeFileName;
     FILE* readFile;
+    int requestNum;
+    int movementNum;
     bool isFinished;
 };
 

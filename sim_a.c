@@ -16,17 +16,24 @@ int main(int argc, char* argv[])
         pthread_t liftThreads[3];
         pthread_t requestThread;
         
-        if(pthread_mutex_init(&readLock, NULL))
+        if(pthread_mutex_init(&lock_mut, NULL))
         {
             printf("Read mutex init failed");
             return 1;
         }
 
-        if(pthread_mutex_init(&writeLock, NULL))
+        if(pthread_cond_init(&full_cond, NULL))
         {
-            printf("Write mutex init failed");
+            printf("Full cond init failed");
             return 1;
         }
+        if(pthread_cond_init(&empty_cond, NULL))
+        {
+            printf("Empty cond init failed");
+            return 1;
+        }
+
+
 
         if(pthread_create(&requestThread, NULL, request, &bufferArgs))
         {
@@ -42,28 +49,25 @@ int main(int argc, char* argv[])
                 return 1;
             }
         }
-        /*printf("x is %d\n", x);*/
 	
-	int numReq = 0, numMove = 0;
-        void* tmp_ptr;
-        if(pthread_join(requestThread, &tmp_ptr))
+        if(pthread_join(requestThread, NULL))
         {
             fprintf(stderr, "Error joining request thread");
         }
-        numReq = *(int*)tmp_ptr;
 
         for (int i = 0; i < 3; i++)
         {
-            if(pthread_join(liftThreads[i], &tmp_ptr))
+            if(pthread_join(liftThreads[i], NULL))
             {
                 fprintf(stderr, "Error joining lift threads");
             }
-	    numMove += *(int*)tmp_ptr;
         }
 
-	fprintf(stderr, "Total number of requests: %d\n", numReq);
-	fprintf(stderr, "Total number of movements: %d\n", numMove);
-        /*printf("x is %d\n", x);*/
+        FILE* file = fopen(bufferArgs.writeFileName, "a");
+        fprintf(file, "Total number of requests: %d\n", bufferArgs.requestNum);
+        fprintf(file, "Total number of movements: %d\n", bufferArgs.movementNum);
+        fclose(file);
+        
         return 0;
     }
     else
