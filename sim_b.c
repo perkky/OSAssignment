@@ -1,4 +1,3 @@
-
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -9,6 +8,7 @@
 #include <fcntl.h>
 #include <stdbool.h>
 
+#include "buffer.h"
 #include "lift.h"
 #include "global.h"
 

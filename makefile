@@ -1,5 +1,5 @@
-OBJ_FILES_A := sim_a.o liftA.o
-OBJ_FILES_B := sim_b.o liftB.o
+OBJ_FILES_A := sim_a.o liftA.o bufferA.o
+OBJ_FILES_B := sim_b.o liftB.o bufferB.o
 FLAGS := -Wall -pthread -lrt -g
  
 all: sim_a sim_b
@@ -21,6 +21,13 @@ liftB.o: lift.c
 
 liftA.o: lift.c
 	@gcc -c $(FLAGS) $< -o $@
+
+bufferA.o: buffer.c
+	@gcc -c $(FLAGS) $< -o $@
+
+bufferB.o: buffer.c
+	@gcc -c -DPROCESS=1 $(FLAGS) $< -o $@
+
 
 .PHONY: clean
 clean:

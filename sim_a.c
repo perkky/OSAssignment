@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <pthread.h>
 #include <stdio.h>
+#include "buffer.h"
 #include "lift.h"
 #include "global.h"
 
