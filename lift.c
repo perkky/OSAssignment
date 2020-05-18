@@ -11,14 +11,17 @@
 void writeRequestToFile(char* myFileName, int myStartFloor, int myEndFloor, int myRequestNum)
 {
     FILE* file = fopen(myFileName, "a");
+    fprintf(file, "---------------------------------------------\n");
     fprintf(file, "New Lift Request From Floor %d to Floor %d\n", myStartFloor, myEndFloor);
-    fprintf(file, "Request No: %d\n\n", myRequestNum);
+    fprintf(file, "Request No: %d\n", myRequestNum);
+    fprintf(file, "---------------------------------------------\n");
     fclose(file);
 }
 
 void writeLiftLogToFile(char* myFileName, int myOriginalFloor, int myStartFloor, int myEndFloor, int myMovement, int myRequestNum, int myTotalFloorsTraveled)
 {
     FILE* file = fopen(myFileName, "a");
+    fprintf(file, "---------------------------------------------\n");
     fprintf(file, "Previous position: Floor %d\n", myOriginalFloor);
     fprintf(file, "Request: Floor %d to Floor %d\n", myStartFloor, myEndFloor);
     fprintf(file, "Detail opebations:\n");
@@ -27,7 +30,8 @@ void writeLiftLogToFile(char* myFileName, int myOriginalFloor, int myStartFloor,
     fprintf(file, "\t#movement for this request: %d\n", myMovement);
     fprintf(file, "\t#request: %d\n", myRequestNum);
     fprintf(file, "\tTotal #movement: %d\n", myTotalFloorsTraveled);
-    fprintf(file, "Current position: Floor %d\n\n", myEndFloor);
+    fprintf(file, "Current position: Floor %d\n", myEndFloor);
+    fprintf(file, "---------------------------------------------\n");
     fclose(file);
 }
 

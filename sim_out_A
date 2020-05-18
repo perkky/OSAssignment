@@ -1,215 +1,24 @@
-New Lift Request From Floor 5 to Floor 2
-Request No: 1
-
-New Lift Request From Floor 10 to Floor 1
-Request No: 2
-
-Previous position: Floor 0
-Request: Floor 5 to Floor 2
-Detail opebations:
-	Go from Floor 0 to Floor 5
-	Go from Floor 5 to Floor 2
-	#movement for this request: 8
-	#request: 1
-	Total #movement: 8
-Current position: Floor 2
-
-New Lift Request From Floor 12 to Floor 18
-Request No: 3
-
-New Lift Request From Floor 19 to Floor 2
-Request No: 4
-
-New Lift Request From Floor 3 to Floor 7
-Request No: 5
-
-Previous position: Floor 0
-Request: Floor 10 to Floor 1
-Detail opebations:
-	Go from Floor 0 to Floor 10
-	Go from Floor 10 to Floor 1
-	#movement for this request: 19
-	#request: 1
-	Total #movement: 19
-Current position: Floor 1
-
-New Lift Request From Floor 9 to Floor 1
-Request No: 6
-
-Previous position: Floor 0
-Request: Floor 12 to Floor 18
-Detail opebations:
-	Go from Floor 0 to Floor 12
-	Go from Floor 12 to Floor 18
-	#movement for this request: 18
-	#request: 1
-	Total #movement: 18
-Current position: Floor 18
-
-New Lift Request From Floor 7 to Floor 8
-Request No: 7
-
-Previous position: Floor 2
-Request: Floor 19 to Floor 2
-Detail opebations:
-	Go from Floor 2 to Floor 19
-	Go from Floor 19 to Floor 2
-	#movement for this request: 34
-	#request: 2
-	Total #movement: 42
-Current position: Floor 2
-
-New Lift Request From Floor 14 to Floor 2
-Request No: 8
-
-Previous position: Floor 1
-Request: Floor 3 to Floor 7
-Detail opebations:
-	Go from Floor 1 to Floor 3
-	Go from Floor 3 to Floor 7
-	#movement for this request: 6
-	#request: 2
-	Total #movement: 25
-Current position: Floor 7
-
-New Lift Request From Floor 3 to Floor 17
-Request No: 9
-
-Previous position: Floor 18
-Request: Floor 9 to Floor 1
-Detail opebations:
-	Go from Floor 18 to Floor 9
-	Go from Floor 9 to Floor 1
-	#movement for this request: 17
-	#request: 2
-	Total #movement: 35
-Current position: Floor 1
-
-New Lift Request From Floor 2 to Floor 4
-Request No: 10
-
-Previous position: Floor 2
-Request: Floor 7 to Floor 8
-Detail opebations:
-	Go from Floor 2 to Floor 7
-	Go from Floor 7 to Floor 8
-	#movement for this request: 6
-	#request: 3
-	Total #movement: 48
-Current position: Floor 8
-
-New Lift Request From Floor 1 to Floor 8
-Request No: 11
-
-Previous position: Floor 7
-Request: Floor 14 to Floor 2
-Detail opebations:
-	Go from Floor 7 to Floor 14
-	Go from Floor 14 to Floor 2
-	#movement for this request: 19
-	#request: 3
-	Total #movement: 44
-Current position: Floor 2
-
-New Lift Request From Floor 5 to Floor 15
-Request No: 12
-
-Previous position: Floor 1
-Request: Floor 3 to Floor 17
-Detail opebations:
-	Go from Floor 1 to Floor 3
-	Go from Floor 3 to Floor 17
-	#movement for this request: 16
-	#request: 3
-	Total #movement: 51
-Current position: Floor 17
-
-New Lift Request From Floor 8 to Floor 2
-Request No: 13
-
-Previous position: Floor 8
-Request: Floor 2 to Floor 4
-Detail opebations:
-	Go from Floor 8 to Floor 2
-	Go from Floor 2 to Floor 4
-	#movement for this request: 8
-	#request: 4
-	Total #movement: 56
-Current position: Floor 4
-
-New Lift Request From Floor 9 to Floor 7
-Request No: 14
-
-Previous position: Floor 2
-Request: Floor 1 to Floor 8
-Detail opebations:
-	Go from Floor 2 to Floor 1
-	Go from Floor 1 to Floor 8
-	#movement for this request: 8
-	#request: 4
-	Total #movement: 52
-Current position: Floor 8
-
-New Lift Request From Floor 5 to Floor 12
-Request No: 15
-
-Previous position: Floor 17
-Request: Floor 5 to Floor 15
-Detail opebations:
-	Go from Floor 17 to Floor 5
-	Go from Floor 5 to Floor 15
-	#movement for this request: 22
-	#request: 4
-	Total #movement: 73
-Current position: Floor 15
-
-Previous position: Floor 4
-Request: Floor 8 to Floor 2
-Detail opebations:
-	Go from Floor 4 to Floor 8
-	Go from Floor 8 to Floor 2
-	#movement for this request: 10
-	#request: 5
-	Total #movement: 66
-Current position: Floor 2
-
-Previous position: Floor 8
-Request: Floor 9 to Floor 7
-Detail opebations:
-	Go from Floor 8 to Floor 9
-	Go from Floor 9 to Floor 7
-	#movement for this request: 3
-	#request: 5
-	Total #movement: 55
-Current position: Floor 7
-
-Previous position: Floor 15
-Request: Floor 5 to Floor 12
-Detail opebations:
-	Go from Floor 15 to Floor 5
-	Go from Floor 5 to Floor 12
-	#movement for this request: 17
-	#request: 5
-	Total #movement: 90
-Current position: Floor 12
-
-Total number of requests: 15
-Total number of movements: 211
+---------------------------------------------
 New Lift Request From Floor 1 to Floor 11
 Request No: 1
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 15 to Floor 2
 Request No: 2
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 4 to Floor 10
 Request No: 3
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 15 to Floor 6
 Request No: 4
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 19 to Floor 17
 Request No: 5
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 0
 Request: Floor 1 to Floor 11
 Detail opebations:
@@ -219,7 +28,12 @@ Detail opebations:
 	#request: 1
 	Total #movement: 11
 Current position: Floor 11
-
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 5 to Floor 14
+Request No: 6
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 0
 Request: Floor 15 to Floor 2
 Detail opebations:
@@ -229,13 +43,12 @@ Detail opebations:
 	#request: 1
 	Total #movement: 28
 Current position: Floor 2
-
-New Lift Request From Floor 5 to Floor 14
-Request No: 6
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 15 to Floor 18
 Request No: 7
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 0
 Request: Floor 4 to Floor 10
 Detail opebations:
@@ -245,10 +58,12 @@ Detail opebations:
 	#request: 1
 	Total #movement: 10
 Current position: Floor 10
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 18 to Floor 18
 Request No: 8
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 11
 Request: Floor 15 to Floor 6
 Detail opebations:
@@ -258,10 +73,8 @@ Detail opebations:
 	#request: 2
 	Total #movement: 24
 Current position: Floor 6
-
-New Lift Request From Floor 6 to Floor 15
-Request No: 9
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 2
 Request: Floor 19 to Floor 17
 Detail opebations:
@@ -271,7 +84,16 @@ Detail opebations:
 	#request: 2
 	Total #movement: 47
 Current position: Floor 17
-
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 6 to Floor 15
+Request No: 9
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 10 to Floor 14
+Request No: 10
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 10
 Request: Floor 5 to Floor 14
 Detail opebations:
@@ -281,13 +103,12 @@ Detail opebations:
 	#request: 2
 	Total #movement: 24
 Current position: Floor 14
-
-New Lift Request From Floor 10 to Floor 14
-Request No: 10
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 5 to Floor 10
 Request No: 11
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 6
 Request: Floor 15 to Floor 18
 Detail opebations:
@@ -297,10 +118,8 @@ Detail opebations:
 	#request: 3
 	Total #movement: 36
 Current position: Floor 18
-
-New Lift Request From Floor 10 to Floor 18
-Request No: 12
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 17
 Request: Floor 18 to Floor 18
 Detail opebations:
@@ -310,10 +129,16 @@ Detail opebations:
 	#request: 3
 	Total #movement: 48
 Current position: Floor 18
-
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 10 to Floor 18
+Request No: 12
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 12 to Floor 18
 Request No: 13
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 14
 Request: Floor 6 to Floor 15
 Detail opebations:
@@ -323,10 +148,12 @@ Detail opebations:
 	#request: 3
 	Total #movement: 41
 Current position: Floor 15
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 8 to Floor 4
 Request No: 14
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 18
 Request: Floor 10 to Floor 14
 Detail opebations:
@@ -336,7 +163,12 @@ Detail opebations:
 	#request: 4
 	Total #movement: 48
 Current position: Floor 14
-
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 7 to Floor 12
+Request No: 15
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 18
 Request: Floor 5 to Floor 10
 Detail opebations:
@@ -346,7 +178,12 @@ Detail opebations:
 	#request: 4
 	Total #movement: 66
 Current position: Floor 10
-
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 11 to Floor 3
+Request No: 16
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 15
 Request: Floor 10 to Floor 18
 Detail opebations:
@@ -356,16 +193,12 @@ Detail opebations:
 	#request: 4
 	Total #movement: 54
 Current position: Floor 18
-
-New Lift Request From Floor 7 to Floor 12
-Request No: 15
-
-New Lift Request From Floor 11 to Floor 3
-Request No: 16
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 17 to Floor 14
 Request No: 17
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 14
 Request: Floor 12 to Floor 18
 Detail opebations:
@@ -375,10 +208,8 @@ Detail opebations:
 	#request: 5
 	Total #movement: 56
 Current position: Floor 18
-
-New Lift Request From Floor 1 to Floor 17
-Request No: 18
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 10
 Request: Floor 8 to Floor 4
 Detail opebations:
@@ -388,10 +219,12 @@ Detail opebations:
 	#request: 5
 	Total #movement: 72
 Current position: Floor 4
-
-New Lift Request From Floor 13 to Floor 11
-Request No: 19
-
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 1 to Floor 17
+Request No: 18
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 18
 Request: Floor 7 to Floor 12
 Detail opebations:
@@ -401,10 +234,16 @@ Detail opebations:
 	#request: 5
 	Total #movement: 70
 Current position: Floor 12
-
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 13 to Floor 11
+Request No: 19
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 10 to Floor 8
 Request No: 20
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 18
 Request: Floor 11 to Floor 3
 Detail opebations:
@@ -414,36 +253,42 @@ Detail opebations:
 	#request: 6
 	Total #movement: 71
 Current position: Floor 3
-
-New Lift Request From Floor 13 to Floor 11
-Request No: 21
-
-Previous position: Floor 12
+---------------------------------------------
+---------------------------------------------
+Previous position: Floor 4
 Request: Floor 17 to Floor 14
 Detail opebations:
-	Go from Floor 12 to Floor 17
+	Go from Floor 4 to Floor 17
 	Go from Floor 17 to Floor 14
-	#movement for this request: 8
+	#movement for this request: 16
 	#request: 6
-	Total #movement: 78
+	Total #movement: 88
 Current position: Floor 14
-
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 13 to Floor 11
+Request No: 21
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 18 to Floor 4
 Request No: 22
-
-Previous position: Floor 4
+---------------------------------------------
+---------------------------------------------
+Previous position: Floor 12
 Request: Floor 1 to Floor 17
 Detail opebations:
-	Go from Floor 4 to Floor 1
+	Go from Floor 12 to Floor 1
 	Go from Floor 1 to Floor 17
-	#movement for this request: 19
+	#movement for this request: 27
 	#request: 6
-	Total #movement: 91
+	Total #movement: 97
 Current position: Floor 17
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 1 to Floor 13
 Request No: 23
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 3
 Request: Floor 13 to Floor 11
 Detail opebations:
@@ -453,10 +298,8 @@ Detail opebations:
 	#request: 7
 	Total #movement: 83
 Current position: Floor 11
-
-New Lift Request From Floor 14 to Floor 14
-Request No: 24
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 14
 Request: Floor 10 to Floor 8
 Detail opebations:
@@ -464,12 +307,18 @@ Detail opebations:
 	Go from Floor 10 to Floor 8
 	#movement for this request: 6
 	#request: 7
-	Total #movement: 84
+	Total #movement: 94
 Current position: Floor 8
-
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 14 to Floor 14
+Request No: 24
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 7 to Floor 7
 Request No: 25
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 17
 Request: Floor 13 to Floor 11
 Detail opebations:
@@ -477,12 +326,14 @@ Detail opebations:
 	Go from Floor 13 to Floor 11
 	#movement for this request: 6
 	#request: 7
-	Total #movement: 97
+	Total #movement: 103
 Current position: Floor 11
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 12 to Floor 2
 Request No: 26
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 11
 Request: Floor 18 to Floor 4
 Detail opebations:
@@ -492,36 +343,42 @@ Detail opebations:
 	#request: 8
 	Total #movement: 104
 Current position: Floor 4
-
-Previous position: Floor 11
+---------------------------------------------
+---------------------------------------------
+Previous position: Floor 8
 Request: Floor 1 to Floor 13
 Detail opebations:
-	Go from Floor 11 to Floor 1
+	Go from Floor 8 to Floor 1
 	Go from Floor 1 to Floor 13
-	#movement for this request: 22
+	#movement for this request: 19
 	#request: 8
-	Total #movement: 119
+	Total #movement: 113
 Current position: Floor 13
-
-Previous position: Floor 8
+---------------------------------------------
+---------------------------------------------
+Previous position: Floor 11
 Request: Floor 14 to Floor 14
 Detail opebations:
-	Go from Floor 8 to Floor 14
+	Go from Floor 11 to Floor 14
 	Go from Floor 14 to Floor 14
-	#movement for this request: 6
+	#movement for this request: 3
 	#request: 8
-	Total #movement: 90
+	Total #movement: 106
 Current position: Floor 14
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 10 to Floor 13
 Request No: 27
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 8 to Floor 8
 Request No: 28
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 16 to Floor 18
 Request No: 29
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 4
 Request: Floor 7 to Floor 7
 Detail opebations:
@@ -531,7 +388,8 @@ Detail opebations:
 	#request: 9
 	Total #movement: 107
 Current position: Floor 7
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 13
 Request: Floor 12 to Floor 2
 Detail opebations:
@@ -539,9 +397,14 @@ Detail opebations:
 	Go from Floor 12 to Floor 2
 	#movement for this request: 11
 	#request: 9
-	Total #movement: 130
+	Total #movement: 124
 Current position: Floor 2
-
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 11 to Floor 8
+Request No: 30
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 14
 Request: Floor 10 to Floor 13
 Detail opebations:
@@ -549,44 +412,48 @@ Detail opebations:
 	Go from Floor 10 to Floor 13
 	#movement for this request: 7
 	#request: 9
-	Total #movement: 97
+	Total #movement: 113
 Current position: Floor 13
-
-New Lift Request From Floor 11 to Floor 8
-Request No: 30
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 2 to Floor 14
 Request No: 31
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 2 to Floor 9
 Request No: 32
-
-Previous position: Floor 2
+---------------------------------------------
+---------------------------------------------
+Previous position: Floor 7
 Request: Floor 8 to Floor 8
 Detail opebations:
-	Go from Floor 2 to Floor 8
+	Go from Floor 7 to Floor 8
 	Go from Floor 8 to Floor 8
-	#movement for this request: 6
+	#movement for this request: 1
 	#request: 10
-	Total #movement: 136
+	Total #movement: 108
 Current position: Floor 8
-
-Previous position: Floor 7
+---------------------------------------------
+---------------------------------------------
+Previous position: Floor 2
 Request: Floor 16 to Floor 18
 Detail opebations:
-	Go from Floor 7 to Floor 16
+	Go from Floor 2 to Floor 16
 	Go from Floor 16 to Floor 18
-	#movement for this request: 11
+	#movement for this request: 16
 	#request: 10
-	Total #movement: 118
+	Total #movement: 140
 Current position: Floor 18
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 11 to Floor 1
 Request No: 33
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 2 to Floor 1
 Request No: 34
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 13
 Request: Floor 11 to Floor 8
 Detail opebations:
@@ -594,12 +461,14 @@ Detail opebations:
 	Go from Floor 11 to Floor 8
 	#movement for this request: 5
 	#request: 10
-	Total #movement: 102
+	Total #movement: 118
 Current position: Floor 8
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 9 to Floor 6
 Request No: 35
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 8
 Request: Floor 2 to Floor 14
 Detail opebations:
@@ -607,9 +476,10 @@ Detail opebations:
 	Go from Floor 2 to Floor 14
 	#movement for this request: 18
 	#request: 11
-	Total #movement: 154
+	Total #movement: 126
 Current position: Floor 14
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 18
 Request: Floor 2 to Floor 9
 Detail opebations:
@@ -617,15 +487,18 @@ Detail opebations:
 	Go from Floor 2 to Floor 9
 	#movement for this request: 23
 	#request: 11
-	Total #movement: 141
+	Total #movement: 163
 Current position: Floor 9
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 10 to Floor 14
 Request No: 36
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 8 to Floor 9
 Request No: 37
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 8
 Request: Floor 11 to Floor 1
 Detail opebations:
@@ -633,12 +506,14 @@ Detail opebations:
 	Go from Floor 11 to Floor 1
 	#movement for this request: 13
 	#request: 11
-	Total #movement: 115
+	Total #movement: 131
 Current position: Floor 1
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 14 to Floor 2
 Request No: 38
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 14
 Request: Floor 2 to Floor 1
 Detail opebations:
@@ -646,9 +521,10 @@ Detail opebations:
 	Go from Floor 2 to Floor 1
 	#movement for this request: 13
 	#request: 12
-	Total #movement: 167
+	Total #movement: 139
 Current position: Floor 1
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 9
 Request: Floor 9 to Floor 6
 Detail opebations:
@@ -656,15 +532,18 @@ Detail opebations:
 	Go from Floor 9 to Floor 6
 	#movement for this request: 3
 	#request: 12
-	Total #movement: 144
+	Total #movement: 166
 Current position: Floor 6
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 8 to Floor 4
 Request No: 39
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 2 to Floor 2
 Request No: 40
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 1
 Request: Floor 10 to Floor 14
 Detail opebations:
@@ -672,12 +551,14 @@ Detail opebations:
 	Go from Floor 10 to Floor 14
 	#movement for this request: 13
 	#request: 12
-	Total #movement: 128
+	Total #movement: 144
 Current position: Floor 14
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 5 to Floor 19
 Request No: 41
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 1
 Request: Floor 8 to Floor 9
 Detail opebations:
@@ -685,9 +566,10 @@ Detail opebations:
 	Go from Floor 8 to Floor 9
 	#movement for this request: 8
 	#request: 13
-	Total #movement: 175
+	Total #movement: 147
 Current position: Floor 9
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 6
 Request: Floor 14 to Floor 2
 Detail opebations:
@@ -695,15 +577,18 @@ Detail opebations:
 	Go from Floor 14 to Floor 2
 	#movement for this request: 20
 	#request: 13
-	Total #movement: 164
+	Total #movement: 186
 Current position: Floor 2
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 15 to Floor 8
 Request No: 42
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 14 to Floor 19
 Request No: 43
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 14
 Request: Floor 8 to Floor 4
 Detail opebations:
@@ -711,38 +596,44 @@ Detail opebations:
 	Go from Floor 8 to Floor 4
 	#movement for this request: 10
 	#request: 13
-	Total #movement: 138
+	Total #movement: 154
 Current position: Floor 4
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 1 to Floor 4
 Request No: 44
-
-Previous position: Floor 2
+---------------------------------------------
+---------------------------------------------
+Previous position: Floor 9
 Request: Floor 2 to Floor 2
 Detail opebations:
+	Go from Floor 9 to Floor 2
 	Go from Floor 2 to Floor 2
-	Go from Floor 2 to Floor 2
-	#movement for this request: 0
+	#movement for this request: 7
 	#request: 14
-	Total #movement: 164
+	Total #movement: 154
 Current position: Floor 2
-
-Previous position: Floor 9
+---------------------------------------------
+---------------------------------------------
+Previous position: Floor 2
 Request: Floor 5 to Floor 19
 Detail opebations:
-	Go from Floor 9 to Floor 5
+	Go from Floor 2 to Floor 5
 	Go from Floor 5 to Floor 19
-	#movement for this request: 18
+	#movement for this request: 17
 	#request: 14
-	Total #movement: 193
+	Total #movement: 203
 Current position: Floor 19
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 13 to Floor 2
 Request No: 45
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 6 to Floor 12
 Request No: 46
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 4
 Request: Floor 15 to Floor 8
 Detail opebations:
@@ -750,12 +641,14 @@ Detail opebations:
 	Go from Floor 15 to Floor 8
 	#movement for this request: 18
 	#request: 14
-	Total #movement: 156
+	Total #movement: 172
 Current position: Floor 8
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 8 to Floor 4
 Request No: 47
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 2
 Request: Floor 14 to Floor 19
 Detail opebations:
@@ -763,9 +656,10 @@ Detail opebations:
 	Go from Floor 14 to Floor 19
 	#movement for this request: 17
 	#request: 15
-	Total #movement: 181
+	Total #movement: 171
 Current position: Floor 19
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 19
 Request: Floor 1 to Floor 4
 Detail opebations:
@@ -773,9 +667,18 @@ Detail opebations:
 	Go from Floor 1 to Floor 4
 	#movement for this request: 21
 	#request: 15
-	Total #movement: 214
+	Total #movement: 224
 Current position: Floor 4
-
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 2 to Floor 19
+Request No: 48
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 19 to Floor 3
+Request No: 49
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 8
 Request: Floor 13 to Floor 2
 Detail opebations:
@@ -783,18 +686,14 @@ Detail opebations:
 	Go from Floor 13 to Floor 2
 	#movement for this request: 16
 	#request: 15
-	Total #movement: 172
+	Total #movement: 188
 Current position: Floor 2
-
-New Lift Request From Floor 2 to Floor 19
-Request No: 48
-
-New Lift Request From Floor 19 to Floor 3
-Request No: 49
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 4 to Floor 14
 Request No: 50
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 19
 Request: Floor 6 to Floor 12
 Detail opebations:
@@ -802,9 +701,10 @@ Detail opebations:
 	Go from Floor 6 to Floor 12
 	#movement for this request: 19
 	#request: 16
-	Total #movement: 200
+	Total #movement: 190
 Current position: Floor 12
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 4
 Request: Floor 8 to Floor 4
 Detail opebations:
@@ -812,15 +712,10 @@ Detail opebations:
 	Go from Floor 8 to Floor 4
 	#movement for this request: 8
 	#request: 16
-	Total #movement: 222
+	Total #movement: 232
 Current position: Floor 4
-
-New Lift Request From Floor 6 to Floor 11
-Request No: 51
-
-New Lift Request From Floor 17 to Floor 7
-Request No: 52
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 2
 Request: Floor 2 to Floor 19
 Detail opebations:
@@ -828,12 +723,22 @@ Detail opebations:
 	Go from Floor 2 to Floor 19
 	#movement for this request: 17
 	#request: 16
-	Total #movement: 189
+	Total #movement: 205
 Current position: Floor 19
-
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 6 to Floor 11
+Request No: 51
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 17 to Floor 7
+Request No: 52
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 19 to Floor 5
 Request No: 53
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 12
 Request: Floor 19 to Floor 3
 Detail opebations:
@@ -841,9 +746,10 @@ Detail opebations:
 	Go from Floor 19 to Floor 3
 	#movement for this request: 23
 	#request: 17
-	Total #movement: 223
+	Total #movement: 213
 Current position: Floor 3
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 4
 Request: Floor 4 to Floor 14
 Detail opebations:
@@ -851,15 +757,10 @@ Detail opebations:
 	Go from Floor 4 to Floor 14
 	#movement for this request: 10
 	#request: 17
-	Total #movement: 232
+	Total #movement: 242
 Current position: Floor 14
-
-New Lift Request From Floor 13 to Floor 13
-Request No: 54
-
-New Lift Request From Floor 3 to Floor 7
-Request No: 55
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 19
 Request: Floor 6 to Floor 11
 Detail opebations:
@@ -867,12 +768,22 @@ Detail opebations:
 	Go from Floor 6 to Floor 11
 	#movement for this request: 18
 	#request: 17
-	Total #movement: 207
+	Total #movement: 223
 Current position: Floor 11
-
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 13 to Floor 13
+Request No: 54
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 3 to Floor 7
+Request No: 55
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 7 to Floor 3
 Request No: 56
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 3
 Request: Floor 17 to Floor 7
 Detail opebations:
@@ -880,9 +791,10 @@ Detail opebations:
 	Go from Floor 17 to Floor 7
 	#movement for this request: 24
 	#request: 18
-	Total #movement: 247
+	Total #movement: 237
 Current position: Floor 7
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 14
 Request: Floor 19 to Floor 5
 Detail opebations:
@@ -890,15 +802,18 @@ Detail opebations:
 	Go from Floor 19 to Floor 5
 	#movement for this request: 19
 	#request: 18
-	Total #movement: 251
+	Total #movement: 261
 Current position: Floor 5
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 11 to Floor 9
 Request No: 57
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 9 to Floor 15
 Request No: 58
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 11
 Request: Floor 13 to Floor 13
 Detail opebations:
@@ -906,12 +821,14 @@ Detail opebations:
 	Go from Floor 13 to Floor 13
 	#movement for this request: 2
 	#request: 18
-	Total #movement: 209
+	Total #movement: 225
 Current position: Floor 13
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 14 to Floor 18
 Request No: 59
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 7
 Request: Floor 3 to Floor 7
 Detail opebations:
@@ -919,12 +836,10 @@ Detail opebations:
 	Go from Floor 3 to Floor 7
 	#movement for this request: 8
 	#request: 19
-	Total #movement: 255
+	Total #movement: 245
 Current position: Floor 7
-
-New Lift Request From Floor 4 to Floor 18
-Request No: 60
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 5
 Request: Floor 7 to Floor 3
 Detail opebations:
@@ -932,12 +847,18 @@ Detail opebations:
 	Go from Floor 7 to Floor 3
 	#movement for this request: 6
 	#request: 19
-	Total #movement: 257
+	Total #movement: 267
 Current position: Floor 3
-
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 4 to Floor 18
+Request No: 60
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 10 to Floor 17
 Request No: 61
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 13
 Request: Floor 11 to Floor 9
 Detail opebations:
@@ -945,12 +866,14 @@ Detail opebations:
 	Go from Floor 11 to Floor 9
 	#movement for this request: 4
 	#request: 19
-	Total #movement: 213
+	Total #movement: 229
 Current position: Floor 9
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 11 to Floor 13
 Request No: 62
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 7
 Request: Floor 9 to Floor 15
 Detail opebations:
@@ -958,12 +881,10 @@ Detail opebations:
 	Go from Floor 9 to Floor 15
 	#movement for this request: 8
 	#request: 20
-	Total #movement: 263
+	Total #movement: 253
 Current position: Floor 15
-
-New Lift Request From Floor 1 to Floor 11
-Request No: 63
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 3
 Request: Floor 14 to Floor 18
 Detail opebations:
@@ -971,12 +892,18 @@ Detail opebations:
 	Go from Floor 14 to Floor 18
 	#movement for this request: 15
 	#request: 20
-	Total #movement: 272
+	Total #movement: 282
 Current position: Floor 18
-
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 1 to Floor 11
+Request No: 63
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 11 to Floor 18
 Request No: 64
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 9
 Request: Floor 4 to Floor 18
 Detail opebations:
@@ -984,12 +911,14 @@ Detail opebations:
 	Go from Floor 4 to Floor 18
 	#movement for this request: 19
 	#request: 20
-	Total #movement: 232
+	Total #movement: 248
 Current position: Floor 18
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 16 to Floor 9
 Request No: 65
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 15
 Request: Floor 10 to Floor 17
 Detail opebations:
@@ -997,12 +926,10 @@ Detail opebations:
 	Go from Floor 10 to Floor 17
 	#movement for this request: 12
 	#request: 21
-	Total #movement: 275
+	Total #movement: 265
 Current position: Floor 17
-
-New Lift Request From Floor 14 to Floor 18
-Request No: 66
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 18
 Request: Floor 11 to Floor 13
 Detail opebations:
@@ -1010,12 +937,18 @@ Detail opebations:
 	Go from Floor 11 to Floor 13
 	#movement for this request: 9
 	#request: 21
-	Total #movement: 281
+	Total #movement: 291
 Current position: Floor 13
-
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 14 to Floor 18
+Request No: 66
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 16 to Floor 18
 Request No: 67
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 18
 Request: Floor 1 to Floor 11
 Detail opebations:
@@ -1023,12 +956,14 @@ Detail opebations:
 	Go from Floor 1 to Floor 11
 	#movement for this request: 27
 	#request: 21
-	Total #movement: 259
+	Total #movement: 275
 Current position: Floor 11
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 15 to Floor 5
 Request No: 68
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 17
 Request: Floor 11 to Floor 18
 Detail opebations:
@@ -1036,12 +971,10 @@ Detail opebations:
 	Go from Floor 11 to Floor 18
 	#movement for this request: 13
 	#request: 22
-	Total #movement: 288
+	Total #movement: 278
 Current position: Floor 18
-
-New Lift Request From Floor 13 to Floor 2
-Request No: 69
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 13
 Request: Floor 16 to Floor 9
 Detail opebations:
@@ -1049,12 +982,18 @@ Detail opebations:
 	Go from Floor 16 to Floor 9
 	#movement for this request: 10
 	#request: 22
-	Total #movement: 291
+	Total #movement: 301
 Current position: Floor 9
-
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 13 to Floor 2
+Request No: 69
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 5 to Floor 16
 Request No: 70
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 11
 Request: Floor 14 to Floor 18
 Detail opebations:
@@ -1062,12 +1001,14 @@ Detail opebations:
 	Go from Floor 14 to Floor 18
 	#movement for this request: 7
 	#request: 22
-	Total #movement: 266
+	Total #movement: 282
 Current position: Floor 18
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 11 to Floor 2
 Request No: 71
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 18
 Request: Floor 16 to Floor 18
 Detail opebations:
@@ -1075,12 +1016,10 @@ Detail opebations:
 	Go from Floor 16 to Floor 18
 	#movement for this request: 4
 	#request: 23
-	Total #movement: 292
+	Total #movement: 282
 Current position: Floor 18
-
-New Lift Request From Floor 13 to Floor 18
-Request No: 72
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 9
 Request: Floor 15 to Floor 5
 Detail opebations:
@@ -1088,12 +1027,10 @@ Detail opebations:
 	Go from Floor 15 to Floor 5
 	#movement for this request: 16
 	#request: 23
-	Total #movement: 307
+	Total #movement: 317
 Current position: Floor 5
-
-New Lift Request From Floor 16 to Floor 3
-Request No: 73
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 18
 Request: Floor 13 to Floor 2
 Detail opebations:
@@ -1101,12 +1038,22 @@ Detail opebations:
 	Go from Floor 13 to Floor 2
 	#movement for this request: 16
 	#request: 23
-	Total #movement: 282
+	Total #movement: 298
 Current position: Floor 2
-
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 13 to Floor 18
+Request No: 72
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 16 to Floor 3
+Request No: 73
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 2 to Floor 2
 Request No: 74
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 18
 Request: Floor 5 to Floor 16
 Detail opebations:
@@ -1114,12 +1061,10 @@ Detail opebations:
 	Go from Floor 5 to Floor 16
 	#movement for this request: 24
 	#request: 24
-	Total #movement: 316
+	Total #movement: 306
 Current position: Floor 16
-
-New Lift Request From Floor 14 to Floor 5
-Request No: 75
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 5
 Request: Floor 11 to Floor 2
 Detail opebations:
@@ -1127,12 +1072,18 @@ Detail opebations:
 	Go from Floor 11 to Floor 2
 	#movement for this request: 15
 	#request: 24
-	Total #movement: 322
+	Total #movement: 332
 Current position: Floor 2
-
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 14 to Floor 5
+Request No: 75
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 8 to Floor 8
 Request No: 76
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 2
 Request: Floor 13 to Floor 18
 Detail opebations:
@@ -1140,12 +1091,14 @@ Detail opebations:
 	Go from Floor 13 to Floor 18
 	#movement for this request: 16
 	#request: 24
-	Total #movement: 298
+	Total #movement: 314
 Current position: Floor 18
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 11 to Floor 11
 Request No: 77
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 16
 Request: Floor 16 to Floor 3
 Detail opebations:
@@ -1153,12 +1106,10 @@ Detail opebations:
 	Go from Floor 16 to Floor 3
 	#movement for this request: 13
 	#request: 25
-	Total #movement: 329
+	Total #movement: 319
 Current position: Floor 3
-
-New Lift Request From Floor 5 to Floor 6
-Request No: 78
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 2
 Request: Floor 2 to Floor 2
 Detail opebations:
@@ -1166,12 +1117,18 @@ Detail opebations:
 	Go from Floor 2 to Floor 2
 	#movement for this request: 0
 	#request: 25
-	Total #movement: 322
+	Total #movement: 332
 Current position: Floor 2
-
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 5 to Floor 6
+Request No: 78
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 19 to Floor 19
 Request No: 79
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 18
 Request: Floor 14 to Floor 5
 Detail opebations:
@@ -1179,12 +1136,14 @@ Detail opebations:
 	Go from Floor 14 to Floor 5
 	#movement for this request: 13
 	#request: 25
-	Total #movement: 311
+	Total #movement: 327
 Current position: Floor 5
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 8 to Floor 5
 Request No: 80
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 3
 Request: Floor 8 to Floor 8
 Detail opebations:
@@ -1192,12 +1151,10 @@ Detail opebations:
 	Go from Floor 8 to Floor 8
 	#movement for this request: 5
 	#request: 26
-	Total #movement: 334
+	Total #movement: 324
 Current position: Floor 8
-
-New Lift Request From Floor 10 to Floor 5
-Request No: 81
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 2
 Request: Floor 11 to Floor 11
 Detail opebations:
@@ -1205,12 +1162,18 @@ Detail opebations:
 	Go from Floor 11 to Floor 11
 	#movement for this request: 9
 	#request: 26
-	Total #movement: 331
+	Total #movement: 341
 Current position: Floor 11
-
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 10 to Floor 5
+Request No: 81
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 14 to Floor 13
 Request No: 82
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 5
 Request: Floor 5 to Floor 6
 Detail opebations:
@@ -1218,12 +1181,14 @@ Detail opebations:
 	Go from Floor 5 to Floor 6
 	#movement for this request: 1
 	#request: 26
-	Total #movement: 312
+	Total #movement: 328
 Current position: Floor 6
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 13 to Floor 11
 Request No: 83
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 8
 Request: Floor 19 to Floor 19
 Detail opebations:
@@ -1231,12 +1196,10 @@ Detail opebations:
 	Go from Floor 19 to Floor 19
 	#movement for this request: 11
 	#request: 27
-	Total #movement: 345
+	Total #movement: 335
 Current position: Floor 19
-
-New Lift Request From Floor 4 to Floor 13
-Request No: 84
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 11
 Request: Floor 8 to Floor 5
 Detail opebations:
@@ -1244,12 +1207,18 @@ Detail opebations:
 	Go from Floor 8 to Floor 5
 	#movement for this request: 6
 	#request: 27
-	Total #movement: 337
+	Total #movement: 347
 Current position: Floor 5
-
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 4 to Floor 13
+Request No: 84
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 4 to Floor 7
 Request No: 85
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 6
 Request: Floor 10 to Floor 5
 Detail opebations:
@@ -1257,12 +1226,14 @@ Detail opebations:
 	Go from Floor 10 to Floor 5
 	#movement for this request: 9
 	#request: 27
-	Total #movement: 321
+	Total #movement: 337
 Current position: Floor 5
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 9 to Floor 17
 Request No: 86
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 19
 Request: Floor 14 to Floor 13
 Detail opebations:
@@ -1270,12 +1241,10 @@ Detail opebations:
 	Go from Floor 14 to Floor 13
 	#movement for this request: 6
 	#request: 28
-	Total #movement: 351
+	Total #movement: 341
 Current position: Floor 13
-
-New Lift Request From Floor 1 to Floor 6
-Request No: 87
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 5
 Request: Floor 13 to Floor 11
 Detail opebations:
@@ -1283,12 +1252,18 @@ Detail opebations:
 	Go from Floor 13 to Floor 11
 	#movement for this request: 10
 	#request: 28
-	Total #movement: 347
+	Total #movement: 357
 Current position: Floor 11
-
+---------------------------------------------
+---------------------------------------------
+New Lift Request From Floor 1 to Floor 6
+Request No: 87
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 12 to Floor 6
 Request No: 88
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 5
 Request: Floor 4 to Floor 13
 Detail opebations:
@@ -1296,12 +1271,14 @@ Detail opebations:
 	Go from Floor 4 to Floor 13
 	#movement for this request: 10
 	#request: 28
-	Total #movement: 331
+	Total #movement: 347
 Current position: Floor 13
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 5 to Floor 14
 Request No: 89
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 13
 Request: Floor 4 to Floor 7
 Detail opebations:
@@ -1309,12 +1286,14 @@ Detail opebations:
 	Go from Floor 4 to Floor 7
 	#movement for this request: 12
 	#request: 29
-	Total #movement: 363
+	Total #movement: 353
 Current position: Floor 7
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 7 to Floor 11
 Request No: 90
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 11
 Request: Floor 9 to Floor 17
 Detail opebations:
@@ -1322,12 +1301,14 @@ Detail opebations:
 	Go from Floor 9 to Floor 17
 	#movement for this request: 10
 	#request: 29
-	Total #movement: 357
+	Total #movement: 367
 Current position: Floor 17
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 4 to Floor 8
 Request No: 91
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 13
 Request: Floor 1 to Floor 6
 Detail opebations:
@@ -1335,12 +1316,14 @@ Detail opebations:
 	Go from Floor 1 to Floor 6
 	#movement for this request: 17
 	#request: 29
-	Total #movement: 348
+	Total #movement: 364
 Current position: Floor 6
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 9 to Floor 11
 Request No: 92
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 7
 Request: Floor 12 to Floor 6
 Detail opebations:
@@ -1348,12 +1331,14 @@ Detail opebations:
 	Go from Floor 12 to Floor 6
 	#movement for this request: 11
 	#request: 30
-	Total #movement: 374
+	Total #movement: 364
 Current position: Floor 6
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 5 to Floor 11
 Request No: 93
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 17
 Request: Floor 5 to Floor 14
 Detail opebations:
@@ -1361,12 +1346,14 @@ Detail opebations:
 	Go from Floor 5 to Floor 14
 	#movement for this request: 21
 	#request: 30
-	Total #movement: 378
+	Total #movement: 388
 Current position: Floor 14
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 15 to Floor 10
 Request No: 94
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 6
 Request: Floor 7 to Floor 11
 Detail opebations:
@@ -1374,12 +1361,14 @@ Detail opebations:
 	Go from Floor 7 to Floor 11
 	#movement for this request: 5
 	#request: 30
-	Total #movement: 353
+	Total #movement: 369
 Current position: Floor 11
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 9 to Floor 5
 Request No: 95
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 6
 Request: Floor 4 to Floor 8
 Detail opebations:
@@ -1387,12 +1376,14 @@ Detail opebations:
 	Go from Floor 4 to Floor 8
 	#movement for this request: 6
 	#request: 31
-	Total #movement: 380
+	Total #movement: 370
 Current position: Floor 8
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 10 to Floor 6
 Request No: 96
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 14
 Request: Floor 9 to Floor 11
 Detail opebations:
@@ -1400,12 +1391,14 @@ Detail opebations:
 	Go from Floor 9 to Floor 11
 	#movement for this request: 7
 	#request: 31
-	Total #movement: 385
+	Total #movement: 395
 Current position: Floor 11
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 13 to Floor 3
 Request No: 97
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 11
 Request: Floor 5 to Floor 11
 Detail opebations:
@@ -1413,12 +1406,14 @@ Detail opebations:
 	Go from Floor 5 to Floor 11
 	#movement for this request: 12
 	#request: 31
-	Total #movement: 365
+	Total #movement: 381
 Current position: Floor 11
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 7 to Floor 3
 Request No: 98
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 8
 Request: Floor 15 to Floor 10
 Detail opebations:
@@ -1426,12 +1421,14 @@ Detail opebations:
 	Go from Floor 15 to Floor 10
 	#movement for this request: 12
 	#request: 32
-	Total #movement: 392
+	Total #movement: 382
 Current position: Floor 10
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 2 to Floor 5
 Request No: 99
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 11
 Request: Floor 9 to Floor 5
 Detail opebations:
@@ -1439,12 +1436,14 @@ Detail opebations:
 	Go from Floor 9 to Floor 5
 	#movement for this request: 6
 	#request: 32
-	Total #movement: 391
+	Total #movement: 401
 Current position: Floor 5
-
+---------------------------------------------
+---------------------------------------------
 New Lift Request From Floor 3 to Floor 1
 Request No: 100
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 11
 Request: Floor 10 to Floor 6
 Detail opebations:
@@ -1452,9 +1451,10 @@ Detail opebations:
 	Go from Floor 10 to Floor 6
 	#movement for this request: 5
 	#request: 32
-	Total #movement: 370
+	Total #movement: 386
 Current position: Floor 6
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 10
 Request: Floor 13 to Floor 3
 Detail opebations:
@@ -1462,9 +1462,10 @@ Detail opebations:
 	Go from Floor 13 to Floor 3
 	#movement for this request: 13
 	#request: 33
-	Total #movement: 405
+	Total #movement: 395
 Current position: Floor 3
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 5
 Request: Floor 7 to Floor 3
 Detail opebations:
@@ -1472,9 +1473,10 @@ Detail opebations:
 	Go from Floor 7 to Floor 3
 	#movement for this request: 6
 	#request: 33
-	Total #movement: 397
+	Total #movement: 407
 Current position: Floor 3
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 6
 Request: Floor 2 to Floor 5
 Detail opebations:
@@ -1482,9 +1484,10 @@ Detail opebations:
 	Go from Floor 2 to Floor 5
 	#movement for this request: 7
 	#request: 33
-	Total #movement: 377
+	Total #movement: 393
 Current position: Floor 5
-
+---------------------------------------------
+---------------------------------------------
 Previous position: Floor 3
 Request: Floor 3 to Floor 1
 Detail opebations:
@@ -1492,8 +1495,8 @@ Detail opebations:
 	Go from Floor 3 to Floor 1
 	#movement for this request: 2
 	#request: 34
-	Total #movement: 407
+	Total #movement: 397
 Current position: Floor 1
-
+---------------------------------------------
 Total number of requests: 100
-Total number of movements: 1181
+Total number of movements: 1197
