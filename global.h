@@ -6,6 +6,10 @@
 #include <stdio.h>
 #include <semaphore.h>
 
+/*Contains the global variables used by either to pthread implemetation or 
+ *the process implementation. This is where the semaphores, mutex, conditions
+ *and global BufferArgs ins declared.
+ */
 
 struct BufferArgs* g_ba;
 sem_t* empty_sem;

@@ -7,6 +7,13 @@
 #include "lift.h"
 #include "global.h"
 
+/* The main function
+ *
+ * This initialises the BufferArgs struct (shared resource),
+ * the threads, creates the thread and then waits for the threads
+ * to terminate. One request thread is created and three lift
+ * threads are created.
+ */
 int main(int argc, char* argv[])
 {
     if (argc == 3)

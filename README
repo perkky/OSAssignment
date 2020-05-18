@@ -1,0 +1,3 @@
+To compile the program - run "make"
+To run part a - run "./sim_a m t"
+To run part b - run "./sim_b m t"

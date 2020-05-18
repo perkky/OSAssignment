@@ -32,6 +32,10 @@ void destroySharedMemory()
     munmap(lock_sem, sizeof(sem_t));
 }
 
+/* This function creates the request and lift processes.
+ * Input the number of request and lift process you want,
+ * and this function will create them and run request()/lift().
+ */
 int createProcesses(int numRequests, int numLifts)
 {
     int parentPID = getpid();
@@ -99,6 +103,12 @@ int createProcesses(int numRequests, int numLifts)
 }
 
 
+/* The main function.
+ *
+ * It creates the shared memory, creates the proces, checks for 
+ * errors and destroys the shared memory. It also initialises
+ * the semahpores and destroys them.
+ */
 int main(int argc, char* argv[])
 {
     createSharedMemory(atoi(argv[1]));

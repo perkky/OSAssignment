@@ -18,7 +18,6 @@ void writeRequestToFile(char* myFileName, int myStartFloor, int myEndFloor, int 
 
 void writeLiftLogToFile(char* myFileName, int myOriginalFloor, int myStartFloor, int myEndFloor, int myMovement, int myRequestNum, int myTotalFloorsTraveled)
 {
-    //Write to the file
     FILE* file = fopen(myFileName, "a");
     fprintf(file, "Previous position: Floor %d\n", myOriginalFloor);
     fprintf(file, "Request: Floor %d to Floor %d\n", myStartFloor, myEndFloor);
@@ -32,6 +31,12 @@ void writeLiftLogToFile(char* myFileName, int myOriginalFloor, int myStartFloor,
     fclose(file);
 }
 
+/* The request function is run by the thread/process aiming to emulate the request.
+ * A void ptr of BufferArgs is passed into it to access shared resources. 
+ * The input file is read line by line, with the lift request being added to the buffer.
+ * It locks the critical section regardless of if pthreads are being used or processes
+ * are being used.
+ */
 void* request(void* ptr)
 {
     struct BufferArgs* ba = (struct BufferArgs*)ptr;
@@ -47,6 +52,8 @@ void* request(void* ptr)
             sem_wait(lock_sem);
 #else
             pthread_mutex_lock(&lock_mut);
+
+            //Wait if the buffer is full
             if (isFull(ba)) pthread_cond_wait(&full_cond, &lock_mut);
 #endif 
             
@@ -73,7 +80,13 @@ void* request(void* ptr)
     return NULL;
 }
 
-
+/* The lift function is run by 3 threads/processes to emulate a lift.
+ *
+ * It takes a void ptr to a BufferArgs struct to access shared resources.
+ * It checks to see if there is a lift request in he buffer, and if there
+ * is, only one thread/process is allowed into the critical section to
+ * consume the lift request. Works with both threads and processes
+ */
 void* lift(void* ptr)
 {
     struct BufferArgs* ba = (struct BufferArgs*)ptr;
@@ -87,9 +100,13 @@ void* lift(void* ptr)
 #ifdef PROCESS
         sem_wait(full_sem);
         sem_wait(lock_sem);
+        
+        //If the buffer is now empty and no more requests are being added, terminate immediately
         if (ba->isFinished && isEmpty(ba)) return NULL;
 #else
         pthread_mutex_lock(&lock_mut);
+
+        //If the buffer is now empty and no more requests are being added, terminate immediately
         if (ba->isFinished && isEmpty(ba)) return NULL;
         else if (isEmpty(ba)) pthread_cond_wait(&empty_cond, &lock_mut);
 #endif
